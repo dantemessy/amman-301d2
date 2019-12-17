@@ -1,7 +1,58 @@
-#logo {
+nav, article, aside, footer section {
+    margin: 0 auto;
+    width: 900px;
+  }
+  
+  nav {
+    margin-top: 25px;
+  }
+
+
+  hr {
+    clear: both;
+    height: 13px;
+  }
+
+  
+  h2 {
+    margin-top: 50px;
+  }
+  
+
+  .print, .date {
+    margin: 0;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 33px;
+  }
+  
+  .date {
+    float: left;
+  }
+  
+  .print {
+    text-decoration: none;
+    padding-left: 30px;
+    float: right;
+  }
+  
+  .recipe {
+    letter-spacing: .1em;
+    height: 260px;
+    padding: 37px 0 0 60px;
+    margin: 40px 0;
+  }
+
+  
+  aside {
+    padding-top: 30px;
+    padding-bottom: 60px
+  }
+  
+    
+  #logo {
     float: left;
     padding-bottom: 25px;
-    color: black;
     text-decoration: none;
   }
   
@@ -11,16 +62,11 @@
   
   #logo h1 {
     padding-left: 50px;
-    font-family: 'Yellowtail', cursive;
-    font-size: 2.4em;
   }
   
   #slogan {
     width: 250px;
     padding-left: 55px;
-    color: #a3a4a2;
-    font-family: 'Abel', sans-serif;
-    font-size: .65em;
     text-transform: uppercase;
   }
   
@@ -34,8 +80,6 @@
   }
 
   main p {
-    color: #333;
-    font-size: 1.2em;
     line-height: 1.3em;
     text-indent: 30px;
     margin: 20px 0px;
@@ -45,7 +89,6 @@
 .recipe li {
     float: left;
     width: 40%;
-    font-size: 1.3em;
     line-height: 31px;
   }
 
@@ -60,9 +103,7 @@
   
   aside h3 {
     padding-left: 100px;
-    font-size: 1.6em;
     padding-bottom: 10px;
-    color: #555;
   }
   
   aside p {
@@ -75,26 +116,16 @@
   
   aside button {
     float: right;
-    font-family: 'Abel', sans-serif;
     text-transform: uppercase;
     padding: 15px 40px;
-    background: #b8705a;
-    color: #fff;
-    font-size: 1.2em;
-    border: none;
   }
-  
-  section hr {
-    border-bottom: 1px solid #eee;
-    height: 0;
-  }
-  
+    
   
   footer section p{
     padding: 50px 0;
     line-height: 1.5em;
     text-align: center;
-    color: #aaa;
   }
+  
   
   
